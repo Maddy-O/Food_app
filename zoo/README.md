@@ -29,11 +29,9 @@ This app shows all related data of animals present in the zoo.
 
 ![image](https://raw.githubusercontent.com/Maddy-O/Zoo-Animal/main/zoo/public/shot1.jpeg)
 
-![Screenshot (192)](https://user-images.githubusercontent.com/44356948/156133043-7b02161d-bc34-4701-952a-242b7f50a950.png)
+![image](https://raw.githubusercontent.com/Maddy-O/Zoo-Animal/main/zoo/public/shot2.jpeg)
 
-![Screenshot (193)](https://user-images.githubusercontent.com/44356948/156133293-2ec7632d-158f-4d2e-bcb2-6132ca2cf00b.png)
-
-![image](https://user-images.githubusercontent.com/44356948/150652494-c7784e6b-77ca-4f5b-ab40-dab25b5f2b25.png)
+![image](https://raw.githubusercontent.com/Maddy-O/Zoo-Animal/main/zoo/public/shot3.jpeg)
 
 ## Walkthrough
 
