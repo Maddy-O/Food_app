@@ -27,7 +27,7 @@ This app shows all related data of animals present in the zoo.
 
 ## Screenshots
 
-![image](https://drive.google.com/file/d/1WCKPtdL-rLMA9jRSj08LRWRtJIZZR_1T/view?usp=sharing)
+![image](https://raw.githubusercontent.com/Maddy-O/Zoo-Animal/main/zoo/public/shot1.jpeg)
 
 ![Screenshot (192)](https://user-images.githubusercontent.com/44356948/156133043-7b02161d-bc34-4701-952a-242b7f50a950.png)
 
