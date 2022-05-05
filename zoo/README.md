@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Zoo App (Mini Individual Project)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The project is basically a mini zoo web app.
+This app shows all related data of animals present in the zoo.
 
-## Available Scripts
+## API Reference
 
-In the project directory, you can run:
+#### Zoo Animals API used to fetch data.
 
-### `npm start`
+```http
+  GET /animals/rand
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### Get item
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```http
+  GET /animals/rand/{num}
+```
 
-### `npm test`
+## Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Client:** React, JavaScript and CSS.
 
-### `npm run build`
+## Authors
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Madan Mohan](https://github.com/Maddy-O)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![image](https://drive.google.com/file/d/1WCKPtdL-rLMA9jRSj08LRWRtJIZZR_1T/view?usp=sharing)
 
-### `npm run eject`
+![Screenshot (192)](https://user-images.githubusercontent.com/44356948/156133043-7b02161d-bc34-4701-952a-242b7f50a950.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Screenshot (193)](https://user-images.githubusercontent.com/44356948/156133293-2ec7632d-158f-4d2e-bcb2-6132ca2cf00b.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![image](https://user-images.githubusercontent.com/44356948/150652494-c7784e6b-77ca-4f5b-ab40-dab25b5f2b25.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Walkthrough
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- The first page is the landing page of the project where basic information about the animals present in the zoo.
+- On clicking on any of the animals card on the home page we route to the animal details page where we can see all details of the selected animal.
+- On clicking on any of the animal you can see type, breeds, dite, length, height etc.
